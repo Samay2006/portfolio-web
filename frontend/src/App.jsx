@@ -3,12 +3,14 @@ import React from "react";
 const App = () => {
   return (
     <>
-    <tr className="space b">
-      <td>Contact Me</td>
-      <td>Skills</td>
-      <td>Projects</td>
-      <td>About Me</td>
-    </tr>
+<div className="flex justify-center space-x-10 font-extrabold text-lg">
+  <a href="#contact" className="hover:text-blue-500 transition-colors">Contact me</a>
+  <a href="#skills" className="hover:text-blue-500 transition-colors">Skills</a>
+  <a href="#projects" className="hover:text-blue-500 transition-colors">Projects</a>
+  <a href="#about" className="hover:text-blue-500 transition-colors">About Me</a>
+</div>
+
+   
     <div className="font-sans bg-black text-white transition-colors duration-500">
       {/* Hero Section */}
      <section className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center bg-gradient-to-r from-gray-800 to-black text-white px-8">
@@ -16,16 +18,16 @@ const App = () => {
     <h1 className="text-5xl sm:text-6xl font-bold mb-6">Hi, I'm Samay Verma</h1>
     <p className="text-xl mb-6">Full Stack Developer | MERN Stack Enthusiast</p>
     <a
-      href="#contact"
+      href="https://Samay2006.github.io/portfolio-web/resume.pdf"
       className="px-6 py-3 bg-white text-black rounded-xl shadow-lg hover:bg-gray-200 transition"
     >
-      Contact Me
+      Dowload Resume
     </a>
   </div>
 
   <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
     <img
-      src="/img.png"
+      src="/img2.png"
       alt="Samay Verma"
       className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-green-600 shadow-xl"
     />
@@ -34,7 +36,7 @@ const App = () => {
 
 
       {/* Skills Section */}
-      <section className="bg-black py-12 px-8">
+      <section className="bg-black py-12 px-8" id="skills">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">Skills</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
