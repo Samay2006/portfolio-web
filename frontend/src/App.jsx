@@ -2,6 +2,13 @@ import React from "react";
 
 const App = () => {
   return (
+    <>
+    <tr className="space b">
+      <td>Contact Me</td>
+      <td>Skills</td>
+      <td>Projects</td>
+      <td>About Me</td>
+    </tr>
     <div className="font-sans bg-black text-white transition-colors duration-500">
       {/* Hero Section */}
      <section className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center bg-gradient-to-r from-gray-800 to-black text-white px-8">
@@ -90,6 +97,7 @@ const App = () => {
         © {new Date().getFullYear()} Samay Verma. All rights reserved.
       </footer>
     </div>
+    </>
   );
 };
 
