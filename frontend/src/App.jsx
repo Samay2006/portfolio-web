@@ -45,7 +45,7 @@ const App = () => {
 
   <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
     <img
-      src="/img2.png"
+      src={`${import.meta.env.BASE_URL}img2.png`}
       alt="Samay Verma"
       className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-green-600 shadow-xl"
     />
