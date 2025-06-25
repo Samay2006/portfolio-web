@@ -3,12 +3,30 @@ import React from "react";
 const App = () => {
   return (
     <>
-<div className="flex justify-center space-x-10 font-extrabold text-lg">
+
+<nav className="w-full bg-white shadow-md fixed top-0 z-50">
+  <div className="max-w-6xl mx-auto px-4">
+    <div className="flex justify-between items-center h-16 font-poppins">
+      <div className="flex space-x-8 text-black font-semibold text-lg">
+        <a href="#contact" className="hover:text-blue-600">Contact</a>
+        <a href="#skills" className="hover:text-blue-600">Skills</a>
+        <a href="#projects" className="hover:text-blue-600">Projects</a>
+        <a href="#about" className="hover:text-blue-600">About</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+{/* <div className="flex justify-center space-x-10 font-extrabold text-lg">
   <a href="#contact" className="hover:text-blue-500 transition-colors">Contact me</a>
   <a href="#skills" className="hover:text-blue-500 transition-colors">Skills</a>
   <a href="#projects" className="hover:text-blue-500 transition-colors">Projects</a>
   <a href="#about" className="hover:text-blue-500 transition-colors">About Me</a>
-</div>
+</div> */}
 
    
     <div className="font-sans bg-black text-white transition-colors duration-500">
@@ -18,10 +36,10 @@ const App = () => {
     <h1 className="text-5xl sm:text-6xl font-bold mb-6">Hi, I'm Samay Verma</h1>
     <p className="text-xl mb-6">Full Stack Developer | MERN Stack Enthusiast</p>
     <a
-      href="https://Samay2006.github.io/portfolio-web/resume.pdf"
-      className="px-6 py-3 bg-white text-black rounded-xl shadow-lg hover:bg-gray-200 transition"
+      href="https://Samay2006.github.io/portfolio-web/update-resume.pdf"
+      className="px-6 py-3 bg-white text-black rounded-xl shadow-lg hover:bg-gray-200 transition font-poppins font-semibold"
     >
-      Dowload Resume
+      Download Resume
     </a>
   </div>
 
