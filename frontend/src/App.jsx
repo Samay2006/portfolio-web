@@ -118,10 +118,7 @@ const App = () => {
               <p className="text-sm mb-4">
               •	Built a real-time location tracking system using Node.js, Express.js, MongoDB Atlas, and Socket.IO.
 	Enabled dynamic location updates for multiple users via backend sockets.
-
-
-
-              </p>
+           </p>
               <a href="https://location-tracker-zney.onrender.com" className="text-indigo-400 hover:underline">
                 View Project
               </a>
